@@ -1,0 +1,1722 @@
+{
+  "required": [
+    "_shards", 
+    "hits", 
+    "timed_out", 
+    "took"
+  ], 
+  "type": "object", 
+  "properties": {
+    "hits": {
+      "required": [
+        "hits", 
+        "max_score", 
+        "total"
+      ], 
+      "type": "object", 
+      "properties": {
+        "hits": {
+          "items": {
+            "required": [
+              "_id", 
+              "_index", 
+              "_score", 
+              "_source", 
+              "_type"
+            ], 
+            "type": "object", 
+            "properties": {
+              "_score": {
+                "type": "integer"
+              }, 
+              "_type": {
+                "type": "string"
+              }, 
+              "_id": {
+                "type": "string"
+              }, 
+              "_source": {
+                "required": [
+                  "meta"
+                ], 
+                "type": "object", 
+                "properties": {
+                  "FlightBoardpoint": {
+                    "type": "string"
+                  }, 
+                  "LSTPredefinedFilter": {
+                    "type": "string"
+                  }, 
+                  "Service": {
+                    "type": "string"
+                  }, 
+                  "JFEVersion": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeACCDataInit": {
+                    "type": "string"
+                  }, 
+                  "Destination": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeIDCRefinement": {
+                    "type": "string"
+                  }, 
+                  "OriginatingPeak": {
+                    "type": "string"
+                  }, 
+                  "RegCheckFlow": {
+                    "type": "string"
+                  }, 
+                  "DisruptionStatus": {
+                    "type": "string"
+                  }, 
+                  "IDCNumberOfETKReturnedByExtendedSearch": {
+                    "type": "string"
+                  }, 
+                  "RoutingAddress": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeIDCPrefetch": {
+                    "type": "string"
+                  }, 
+                  "ScreenResolution": {
+                    "type": "string"
+                  }, 
+                  "CPU": {
+                    "type": "string"
+                  }, 
+                  "FSE": {
+                    "type": "string"
+                  }, 
+                  "FuelRamp": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeIDCPrimarySearch": {
+                    "type": "string"
+                  }, 
+                  "TransactionCode": {
+                    "type": "string"
+                  }, 
+                  "RoamingAgent": {
+                    "type": "string"
+                  }, 
+                  "Host": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeCPRFullUpdate": {
+                    "type": "string"
+                  }, 
+                  "DocumentType": {
+                    "type": "string"
+                  }, 
+                  "TransactionID": {
+                    "type": "string"
+                  }, 
+                  "CPRNumberOfIREQsSent": {
+                    "type": "string"
+                  }, 
+                  "SYQUCIs": {
+                    "items": {
+                      "required": [
+                        "CustomerId"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "CustomerId": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "AircraftSubtype": {
+                    "type": "string"
+                  }, 
+                  "IDCNumberOfPaxRetrieved": {
+                    "type": "string"
+                  }, 
+                  "AircraftRegistration": {
+                    "type": "string"
+                  }, 
+                  "OrgDelivSys": {
+                    "type": "string"
+                  }, 
+                  "ElapsedServiceTime": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeIDCExtendedSearch": {
+                    "type": "string"
+                  }, 
+                  "OperatingCarrier": {
+                    "type": "string"
+                  }, 
+                  "IDCNumberOfExtendedSearchToRES": {
+                    "type": "string"
+                  }, 
+                  "FlightOffpoint": {
+                    "type": "string"
+                  }, 
+                  "ActualUnderload": {
+                    "type": "string"
+                  }, 
+                  "Pid": {
+                    "type": "string"
+                  }, 
+                  "TransactionSubCode": {
+                    "type": "string"
+                  }, 
+                  "CMDiscrepancy": {
+                    "items": {
+                      "required": [
+                        "AccNoSeat", 
+                        "DupeSeat", 
+                        "NoNGIData"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "AccNoSeat": {
+                          "type": "string"
+                        }, 
+                        "NoNGIData": {
+                          "type": "string"
+                        }, 
+                        "DupeSeat": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "ElapsedTimeIDCFullCPRRetrieval": {
+                    "type": "string"
+                  }, 
+                  "OS": {
+                    "type": "string"
+                  }, 
+                  "sendTimestamp": {
+                    "type": "string"
+                  }, 
+                  "DcxID": {
+                    "type": "string"
+                  }, 
+                  "From": {
+                    "type": "string"
+                  }, 
+                  "LSTNumberOfPassengers": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeACCLocks": {
+                    "type": "string"
+                  }, 
+                  "Organisation": {
+                    "type": "string"
+                  }, 
+                  "FlightNumber": {
+                    "type": "string"
+                  }, 
+                  "Source": {
+                    "type": "string"
+                  }, 
+                  "Version": {
+                    "type": "string"
+                  }, 
+                  "Bypass": {
+                    "type": "string"
+                  }, 
+                  "CPREditedUCIs": {
+                    "items": {
+                      "required": [
+                        "UCI"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "UCI": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "LSTSortFilterApplied": {
+                    "type": "string"
+                  }, 
+                  "Channel": {
+                    "type": "string"
+                  }, 
+                  "Is1aetsHosted": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTransactionTime": {
+                    "type": "string"
+                  }, 
+                  "FuelTakeoff": {
+                    "type": "string"
+                  }, 
+                  "Fzfw": {
+                    "type": "string"
+                  }, 
+                  "TransactionErrors": {
+                    "type": "object", 
+                    "properties": {
+                      "Errors": {
+                        "items": {
+                          "required": [
+                            "Error"
+                          ], 
+                          "type": "object", 
+                          "properties": {
+                            "Error": {
+                              "type": "string"
+                            }
+                          }
+                        }, 
+                        "type": "array"
+                      }, 
+                      "Warnings": {
+                        "items": {
+                          "required": [
+                            "Warning"
+                          ], 
+                          "type": "object", 
+                          "properties": {
+                            "Warning": {
+                              "type": "string"
+                            }
+                          }
+                        }, 
+                        "type": "array"
+                      }
+                    }
+                  }, 
+                  "ElapsedTimeSTGConfirmFreeSeatingLegs": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeCPRAPISAQQChecks": {
+                    "type": "string"
+                  }, 
+                  "CrewIndex": {
+                    "type": "string"
+                  }, 
+                  "WorkstationID": {
+                    "type": "string"
+                  }, 
+                  "Is1aemsHosted": {
+                    "type": "string"
+                  }, 
+                  "Zfw": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeACCVerifyPreConditions": {
+                    "type": "string"
+                  }, 
+                  "CPRNumberOfPaxEdited": {
+                    "type": "string"
+                  }, 
+                  "LSTBasicFilters": {
+                    "items": {
+                      "required": [
+                        "Id", 
+                        "Value"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Id": {
+                          "type": "string"
+                        }, 
+                        "Value": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "Zfi": {
+                    "type": "string"
+                  }, 
+                  "logout": {
+                    "required": [
+                      "Timestamp"
+                    ], 
+                    "type": "object", 
+                    "properties": {
+                      "Timestamp": {
+                        "type": "string"
+                      }
+                    }
+                  }, 
+                  "SYQTimeInQueue": {
+                    "type": "string"
+                  }, 
+                  "SYQUPIs": {
+                    "items": {
+                      "required": [
+                        "ProductId"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "ProductId": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "CPRIreq": {
+                    "items": {
+                      "required": [
+                        "ElapsedTimeUPDDOA"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "ElapsedTimeUPDDOA": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "IDCNumberOfExactMatch": {
+                    "type": "string"
+                  }, 
+                  "IntendedService": {
+                    "type": "string"
+                  }, 
+                  "MultiLeg": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeCPRAPPChecks": {
+                    "type": "string"
+                  }, 
+                  "ArrivalDateTime": {
+                    "type": "string"
+                  }, 
+                  "FuelTaxi": {
+                    "type": "string"
+                  }, 
+                  "UnreportedErrors": {
+                    "items": {
+                      "required": [
+                        "Warning"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Warning": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "BRS_EdiService": {
+                    "type": "string"
+                  }, 
+                  "BRS_HttpService": {
+                    "type": "string"
+                  }, 
+                  "login": {
+                    "required": [
+                      "Timestamp"
+                    ], 
+                    "type": "object", 
+                    "properties": {
+                      "Timestamp": {
+                        "type": "string"
+                      }
+                    }
+                  }, 
+                  "CMSystem": {
+                    "type": "string"
+                  }, 
+                  "FuelSpecificGravity": {
+                    "type": "string"
+                  }, 
+                  "FuelBallast": {
+                    "type": "string"
+                  }, 
+                  "Backend": {
+                    "type": "string"
+                  }, 
+                  "FuelTrip": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeCPRFraudChecks": {
+                    "type": "string"
+                  }, 
+                  "Hostname": {
+                    "type": "string"
+                  }, 
+                  "UserID": {
+                    "type": "string"
+                  }, 
+                  "CrewWeight": {
+                    "type": "string"
+                  }, 
+                  "FuelStatus": {
+                    "type": "string"
+                  }, 
+                  "FlightType": {
+                    "type": "string"
+                  }, 
+                  "LirStatus": {
+                    "type": "string"
+                  }, 
+                  "Provider": {
+                    "type": "string"
+                  }, 
+                  "SYQRecordLocator": {
+                    "type": "string"
+                  }, 
+                  "RegADCWebSocketActions": {
+                    "items": {
+                      "required": [
+                        "Action"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Action": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "ReverseMessageType": {
+                    "type": "string"
+                  }, 
+                  "IDCNumberOfExtendedSearchToETS": {
+                    "type": "string"
+                  }, 
+                  "QueueItemNumberOfRetries": {
+                    "type": "string"
+                  }, 
+                  "EventType": {
+                    "type": "string"
+                  }, 
+                  "BPOAcceptanceCapacityRatio": {
+                    "type": "string"
+                  }, 
+                  "QueueItemStatus": {
+                    "type": "string"
+                  }, 
+                  "FMSystem": {
+                    "type": "string"
+                  }, 
+                  "Peak": {
+                    "type": "string"
+                  }, 
+                  "pe": {
+                    "required": [
+                      "Application", 
+                      "BoardingFlights", 
+                      "Flights", 
+                      "Message", 
+                      "Pax", 
+                      "Screen", 
+                      "ScreenForm", 
+                      "StackTrace", 
+                      "Timestamp", 
+                      "Type"
+                    ], 
+                    "type": "object", 
+                    "properties": {
+                      "StackTrace": {
+                        "type": "string"
+                      }, 
+                      "Type": {
+                        "type": "string"
+                      }, 
+                      "Pax": {
+                        "type": "string"
+                      }, 
+                      "Crumbtrail": {
+                        "type": "string"
+                      }, 
+                      "Screen": {
+                        "type": "string"
+                      }, 
+                      "Flights": {
+                        "type": "string"
+                      }, 
+                      "Application": {
+                        "type": "string"
+                      }, 
+                      "BoardingFlights": {
+                        "type": "string"
+                      }, 
+                      "Timestamp": {
+                        "type": "string"
+                      }, 
+                      "Message": {
+                        "type": "string"
+                      }, 
+                      "ScreenForm": {
+                        "type": "string"
+                      }
+                    }
+                  }, 
+                  "CPRIreqAsync": {
+                    "items": {
+                      "type": "object", 
+                      "properties": {
+                        "ElapsedTimeUPDRDO": {
+                          "type": "string"
+                        }, 
+                        "ElapsedTimeUPDFQT": {
+                          "type": "string"
+                        }, 
+                        "ElapsedTimeUPDSSR": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "ElapsedTimeACCPerformAcceptance": {
+                    "type": "string"
+                  }, 
+                  "DocumentFormat": {
+                    "type": "string"
+                  }, 
+                  "RegCountryProgram": {
+                    "items": {
+                      "required": [
+                        "MessageSubType", 
+                        "MessageType"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "PrimeFlight": {
+                          "type": "string"
+                        }, 
+                        "ToSap": {
+                          "type": "string"
+                        }, 
+                        "Country": {
+                          "type": "string"
+                        }, 
+                        "TransactionIdentifier": {
+                          "type": "string"
+                        }, 
+                        "MessageType": {
+                          "type": "string"
+                        }, 
+                        "MessageSubType": {
+                          "type": "string"
+                        }, 
+                        "PrimeOffpoint": {
+                          "type": "string"
+                        }, 
+                        "PrimeBoardpoint": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "PantryWeight": {
+                    "type": "string"
+                  }, 
+                  "TTYRelationalReference": {
+                    "type": "string"
+                  }, 
+                  "ServiceVersionOut": {
+                    "type": "string"
+                  }, 
+                  "TTYMessageType": {
+                    "type": "string"
+                  }, 
+                  "IDCNumberOfPeaksToBroadcastTo": {
+                    "type": "string"
+                  }, 
+                  "CARF": {
+                    "type": "string"
+                  }, 
+                  "JFEResolution": {
+                    "type": "string"
+                  }, 
+                  "PotableWaterWeight": {
+                    "type": "string"
+                  }, 
+                  "SubFrom": {
+                    "type": "string"
+                  }, 
+                  "Office": {
+                    "type": "string"
+                  }, 
+                  "PantryIndex": {
+                    "type": "string"
+                  }, 
+                  "RegEvents": {
+                    "items": {
+                      "required": [
+                        "Type"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Type": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "Prefix": {
+                    "type": "string"
+                  }, 
+                  "meta": {
+                    "required": [
+                      "expiration", 
+                      "flags", 
+                      "id", 
+                      "rev"
+                    ], 
+                    "type": "object", 
+                    "properties": {
+                      "rev": {
+                        "type": "string"
+                      }, 
+                      "flags": {
+                        "type": "integer"
+                      }, 
+                      "expiration": {
+                        "type": "integer"
+                      }, 
+                      "id": {
+                        "type": "string"
+                      }
+                    }
+                  }, 
+                  "OffpointTerminal": {
+                    "type": "string"
+                  }, 
+                  "TransactionStatus": {
+                    "type": "string"
+                  }, 
+                  "LoadsheetStatus": {
+                    "type": "string"
+                  }, 
+                  "FromSap": {
+                    "type": "string"
+                  }, 
+                  "IDCNumberOfPNRReturnedByExtendedSearch": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeCPRADCChecks": {
+                    "type": "string"
+                  }, 
+                  "DocumentRequestType": {
+                    "type": "string"
+                  }, 
+                  "NGIDiscrepancy": {
+                    "items": {
+                      "required": [
+                        "CMDiffNGI", 
+                        "CMSeatOnly", 
+                        "NGISeatOnly", 
+                        "NoCMData", 
+                        "SID", 
+                        "SeatProductStatus", 
+                        "SeatStatus"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "NoCMData": {
+                          "type": "string"
+                        }, 
+                        "SeatProductStatus": {
+                          "type": "string"
+                        }, 
+                        "CMSeatOnly": {
+                          "type": "string"
+                        }, 
+                        "NGISeatOnly": {
+                          "type": "string"
+                        }, 
+                        "SID": {
+                          "type": "string"
+                        }, 
+                        "CMDiffNGI": {
+                          "type": "string"
+                        }, 
+                        "SeatStatus": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "IDCNumberOfCPRCreatedByExtendedSearch": {
+                    "type": "string"
+                  }, 
+                  "IsGtwCustomer": {
+                    "type": "string"
+                  }, 
+                  "Memory": {
+                    "type": "string"
+                  }, 
+                  "DepartureDateTime": {
+                    "type": "string"
+                  }, 
+                  "QueueName": {
+                    "type": "string"
+                  }, 
+                  "BoardpointTerminal": {
+                    "type": "string"
+                  }, 
+                  "ServicePack": {
+                    "type": "string"
+                  }, 
+                  "HostName": {
+                    "type": "string"
+                  }, 
+                  "ToClientSap": {
+                    "type": "string"
+                  }, 
+                  "Phase": {
+                    "type": "string"
+                  }, 
+                  "Recloc": {
+                    "type": "string"
+                  }, 
+                  "LSTFilterCombination": {
+                    "type": "string"
+                  }, 
+                  "TicketNumber": {
+                    "type": "string"
+                  }, 
+                  "CPREdits": {
+                    "items": {
+                      "required": [
+                        "Type"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Type": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "HandlingCarrier": {
+                    "type": "string"
+                  }, 
+                  "Airport": {
+                    "type": "string"
+                  }, 
+                  "IDCSearchModes": {
+                    "items": {
+                      "required": [
+                        "Criteria"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Criteria": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "Ezfw": {
+                    "type": "string"
+                  }, 
+                  "OrgCascSys": {
+                    "type": "string"
+                  }, 
+                  "DowSubtype": {
+                    "type": "string"
+                  }, 
+                  "TTYAddresses": {
+                    "items": {
+                      "required": [
+                        "TTYAddress"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "TTYAddress": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "FlightStatus": {
+                    "type": "string"
+                  }, 
+                  "doc": {
+                    "type": "object", 
+                    "properties": {
+                      "SAP": {
+                        "type": "string"
+                      }, 
+                      "SequenceID": {
+                        "type": "string"
+                      }, 
+                      "VendorCode": {
+                        "type": "string"
+                      }, 
+                      "DocumentNature": {
+                        "type": "string"
+                      }, 
+                      "Db": {
+                        "type": "string"
+                      }, 
+                      "CustCharacteristics": {
+                        "type": "string"
+                      }, 
+                      "AlteaCarrier": {
+                        "type": "string"
+                      }, 
+                      "ReqSeat": {
+                        "type": "string"
+                      }, 
+                      "JFEScreenResolution": {
+                        "type": "string"
+                      }, 
+                      "Gid": {
+                        "type": "string"
+                      }, 
+                      "Template": {
+                        "type": "string"
+                      }, 
+                      "peaktoken": {
+                        "type": "string"
+                      }, 
+                      "TicketingEvent": {
+                        "type": "string"
+                      }, 
+                      "OperatingCarrierFrom": {
+                        "type": "string"
+                      }, 
+                      "TransactionCompleted": {
+                        "type": "boolean"
+                      }, 
+                      "FlightBoardPoint": {
+                        "type": "string"
+                      }, 
+                      "DelSeat": {
+                        "type": "string"
+                      }, 
+                      "Criticality": {
+                        "type": "string"
+                      }, 
+                      "SuccessfulCount": {
+                        "type": "integer"
+                      }, 
+                      "PassengerAcceptedTotal": {
+                        "type": "integer"
+                      }, 
+                      "ProductStatus": {
+                        "type": "string"
+                      }, 
+                      "Step": {
+                        "type": "string"
+                      }, 
+                      "MarketingFlightNumber": {
+                        "type": "string"
+                      }, 
+                      "DepartureDate": {
+                        "type": "string"
+                      }, 
+                      "NbLines": {
+                        "type": "integer"
+                      }, 
+                      "UniqueCustomerIdentifier": {
+                        "type": "string"
+                      }, 
+                      "NbAttempts": {
+                        "type": "integer"
+                      }, 
+                      "sendtimestamp": {
+                        "type": "string"
+                      }, 
+                      "NbSynchronizations": {
+                        "type": "integer"
+                      }, 
+                      "Did": {
+                        "type": "string"
+                      }, 
+                      "UserID": {
+                        "type": "string"
+                      }, 
+                      "MemorySize": {
+                        "type": "string"
+                      }, 
+                      "PassCard": {
+                        "required": [
+                          "CheckHierTree", 
+                          "CheckUser", 
+                          "LoginAreaCheck", 
+                          "Office", 
+                          "Organization", 
+                          "Sign", 
+                          "User", 
+                          "VirtualMode"
+                        ], 
+                        "type": "object", 
+                        "properties": {
+                          "CheckUser": {
+                            "type": "boolean"
+                          }, 
+                          "Office": {
+                            "type": "string"
+                          }, 
+                          "VirtualMode": {
+                            "type": "boolean"
+                          }, 
+                          "Sign": {
+                            "type": "string"
+                          }, 
+                          "LoginAreaCheck": {
+                            "type": "boolean"
+                          }, 
+                          "User": {
+                            "type": "string"
+                          }, 
+                          "Organization": {
+                            "type": "string"
+                          }, 
+                          "CheckHierTree": {
+                            "type": "boolean"
+                          }
+                        }
+                      }, 
+                      "UseCase": {
+                        "type": "string"
+                      }, 
+                      "SSLPortOpen": {
+                        "type": "integer"
+                      }, 
+                      "ActionHostUpdate": {
+                        "type": "string"
+                      }, 
+                      "ResultReturned": {
+                        "type": "string"
+                      }, 
+                      "Organization": {
+                        "type": "string"
+                      }, 
+                      "BoardingType": {
+                        "type": "string"
+                      }, 
+                      "OperatingCarrier": {
+                        "type": "string"
+                      }, 
+                      "AgentOrganization": {
+                        "type": "string"
+                      }, 
+                      "BSMDeliveryAMS": {
+                        "type": "integer"
+                      }, 
+                      "DeliveryType": {
+                        "type": "string"
+                      }, 
+                      "MktCarrier": {
+                        "type": "string"
+                      }, 
+                      "ConvId": {
+                        "type": "string"
+                      }, 
+                      "AircraftType": {
+                        "type": "string"
+                      }, 
+                      "MsgId": {
+                        "type": "string"
+                      }, 
+                      "PassengersToBeAccepted": {
+                        "type": "integer"
+                      }, 
+                      "DepartureTime": {
+                        "type": "string"
+                      }, 
+                      "LoadControlFlightStatus": {
+                        "type": "string"
+                      }, 
+                      "OrganizationId": {
+                        "type": "string"
+                      }, 
+                      "AgentType": {
+                        "type": "string"
+                      }, 
+                      "FlightNumber": {
+                        "type": "string"
+                      }, 
+                      "CabinClassCode": {
+                        "type": "string"
+                      }, 
+                      "Version": {
+                        "type": "string"
+                      }, 
+                      "FullLocation": {
+                        "type": "string"
+                      }, 
+                      "PaxName": {
+                        "type": "string"
+                      }, 
+                      "IsRandomSequenceID": {
+                        "type": "integer"
+                      }, 
+                      "ScreenResolution": {
+                        "type": "string"
+                      }, 
+                      "Channel": {
+                        "type": "string"
+                      }, 
+                      "NbPublications": {
+                        "type": "integer"
+                      }, 
+                      "CountryCode": {
+                        "type": "string"
+                      }, 
+                      "Package": {
+                        "type": "string"
+                      }, 
+                      "NumStandardBags": {
+                        "type": "integer"
+                      }, 
+                      "NumTTYSent": {
+                        "type": "integer"
+                      }, 
+                      "NbPolling": {
+                        "type": "integer"
+                      }, 
+                      "FrequentFlyerTier": {
+                        "type": "string"
+                      }, 
+                      "MessageID": {
+                        "type": "integer"
+                      }, 
+                      "NoCouponErrorCounter": {
+                        "type": "integer"
+                      }, 
+                      "NumberOfErrors": {
+                        "type": "integer"
+                      }, 
+                      "WorkstationID": {
+                        "type": "string"
+                      }, 
+                      "ApplicationName": {
+                        "type": "string"
+                      }, 
+                      "Publisher": {
+                        "type": "string"
+                      }, 
+                      "OccupationStatus": {
+                        "type": "string"
+                      }, 
+                      "UniqueFlightIdentifier": {
+                        "type": "string"
+                      }, 
+                      "DiscCountRelevance": {
+                        "type": "string"
+                      }, 
+                      "LinkDown": {
+                        "type": "integer"
+                      }, 
+                      "GroupConfirmed": {
+                        "type": "string"
+                      }, 
+                      "NumberOfWarnings": {
+                        "type": "integer"
+                      }, 
+                      "FlightDate": {
+                        "type": "string"
+                      }, 
+                      "FlightCreateError": {
+                        "type": "integer"
+                      }, 
+                      "RejectQueue": {
+                        "type": "string"
+                      }, 
+                      "host": {
+                        "type": "string"
+                      }, 
+                      "ServiceName": {
+                        "type": "string"
+                      }, 
+                      "RetrieveCRTID_Error": {
+                        "type": "integer"
+                      }, 
+                      "ExportTime": {
+                        "type": "integer"
+                      }, 
+                      "BoardingPointFrom": {
+                        "type": "string"
+                      }, 
+                      "about": {
+                        "type": "string"
+                      }, 
+                      "PassengerAcceptedStandby": {
+                        "type": "integer"
+                      }, 
+                      "ErrorMessage": {
+                        "type": "string"
+                      }, 
+                      "MaAirline": {
+                        "type": "string"
+                      }, 
+                      "ExactMatch": {
+                        "type": "boolean"
+                      }, 
+                      "ReqDelSeatCharacteristics": {
+                        "type": "string"
+                      }, 
+                      "Currency": {
+                        "type": "string"
+                      }, 
+                      "MessageContent": {
+                        "type": "string"
+                      }, 
+                      "PeakValue": {
+                        "type": "string"
+                      }, 
+                      "BtBpError": {
+                        "type": "integer"
+                      }, 
+                      "PassengerBoardedTransit": {
+                        "type": "integer"
+                      }, 
+                      "MessageSender": {
+                        "type": "string"
+                      }, 
+                      "PurePassThrough": {
+                        "type": "string"
+                      }, 
+                      "DiscType": {
+                        "type": "string"
+                      }, 
+                      "NbSynchronizationError": {
+                        "type": "integer"
+                      }, 
+                      "TaxCalculationOkFQCounter": {
+                        "type": "integer"
+                      }, 
+                      "app": {
+                        "type": "string"
+                      }, 
+                      "PassengerBoardedJoiner": {
+                        "type": "integer"
+                      }, 
+                      "MktCarrierFrom": {
+                        "type": "string"
+                      }, 
+                      "BSM_Unto": {
+                        "type": "string"
+                      }, 
+                      "BoardingGates": {
+                        "type": "string"
+                      }, 
+                      "Provider": {
+                        "type": "string"
+                      }, 
+                      "PaymentLinkName": {
+                        "type": "string"
+                      }, 
+                      "Boundtype": {
+                        "type": "string"
+                      }, 
+                      "OperatingFlightNumber": {
+                        "type": "string"
+                      }, 
+                      "BoardingErrorCount": {
+                        "type": "integer"
+                      }, 
+                      "TransactionTimeOut": {
+                        "type": "string"
+                      }, 
+                      "Counter": {
+                        "type": "integer"
+                      }, 
+                      "IsoCode": {
+                        "type": "string"
+                      }, 
+                      "DiscId": {
+                        "type": "string"
+                      }, 
+                      "Timestamp": {
+                        "type": "string"
+                      }, 
+                      "FinalQueueingAttempt": {
+                        "type": "integer"
+                      }, 
+                      "OperatingFlightFrom": {
+                        "type": "string"
+                      }, 
+                      "FailureCount": {
+                        "type": "integer"
+                      }, 
+                      "ErrorCode": {
+                        "type": "integer"
+                      }, 
+                      "TransactionPartner": {
+                        "type": "string"
+                      }, 
+                      "Peak": {
+                        "type": "string"
+                      }, 
+                      "SignInInternalError": {
+                        "type": "integer"
+                      }, 
+                      "ScheduledLocDepartureDateTime": {
+                        "type": "string"
+                      }, 
+                      "NumRushBags": {
+                        "type": "integer"
+                      }, 
+                      "Recipient": {
+                        "type": "string"
+                      }, 
+                      "ExportMode": {
+                        "type": "string"
+                      }, 
+                      "FlightLegOrder": {
+                        "type": "integer"
+                      }, 
+                      "PrinterId": {
+                        "type": "string"
+                      }, 
+                      "OwnerAirline": {
+                        "type": "string"
+                      }, 
+                      "ImportMode": {
+                        "type": "string"
+                      }, 
+                      "PassengerBoardedTotal": {
+                        "type": "integer"
+                      }, 
+                      "FlightOffPoint": {
+                        "type": "string"
+                      }, 
+                      "CompId": {
+                        "type": "string"
+                      }, 
+                      "TicketNumber": {
+                        "type": "string"
+                      }, 
+                      "TTYMsgType": {
+                        "type": "string"
+                      }, 
+                      "Timers": {
+                        "required": [
+                          "CPU", 
+                          "Elapsed", 
+                          "Unit"
+                        ], 
+                        "type": "object", 
+                        "properties": {
+                          "CPU": {
+                            "type": "integer"
+                          }, 
+                          "Unit": {
+                            "type": "string"
+                          }, 
+                          "Elapsed": {
+                            "type": "integer"
+                          }
+                        }
+                      }, 
+                      "EstimatedLocDepartureDateTime": {
+                        "type": "string"
+                      }, 
+                      "AirportBoardTerminal": {
+                        "type": "string"
+                      }, 
+                      "OpFlightnumOpSuffix": {
+                        "type": "string"
+                      }, 
+                      "QueryMsgVersion": {
+                        "type": "string"
+                      }, 
+                      "SalableConfig": {
+                        "type": "string"
+                      }, 
+                      "AirportTerminal": {
+                        "type": "string"
+                      }, 
+                      "TransactionType": {
+                        "type": "string"
+                      }, 
+                      "GDS": {
+                        "type": "string"
+                      }, 
+                      "PassengerBookedTotal": {
+                        "type": "integer"
+                      }, 
+                      "Office": {
+                        "type": "string"
+                      }, 
+                      "Source": {
+                        "type": "string"
+                      }, 
+                      "Process": {
+                        "type": "string"
+                      }, 
+                      "Attribute": {
+                        "type": "string"
+                      }, 
+                      "ErrorType": {
+                        "type": "string"
+                      }, 
+                      "ErrorTime": {
+                        "type": "integer"
+                      }, 
+                      "FirstOfSequence": {
+                        "type": "integer"
+                      }, 
+                      "NumberofRequest": {
+                        "type": "integer"
+                      }, 
+                      "PrimarySearchMethod": {
+                        "type": "string"
+                      }, 
+                      "GeneralFlightStatus": {
+                        "type": "string"
+                      }, 
+                      "BoardingFlightStatus": {
+                        "type": "string"
+                      }, 
+                      "ErrorCodeAlphanumeric": {
+                        "type": "string"
+                      }, 
+                      "AcceptanceFlightStatus": {
+                        "type": "string"
+                      }, 
+                      "Market": {
+                        "type": "string"
+                      }, 
+                      "Location": {
+                        "type": "string"
+                      }, 
+                      "ExtendedSearch": {
+                        "type": "boolean"
+                      }, 
+                      "AircraftStand": {
+                        "type": "string"
+                      }, 
+                      "OpAirline": {
+                        "type": "string"
+                      }, 
+                      "UniqueTransactionIdentifier": {
+                        "type": "string"
+                      }, 
+                      "Airport": {
+                        "type": "string"
+                      }, 
+                      "PricingIndicator": {
+                        "type": "string"
+                      }, 
+                      "Window": {
+                        "type": "string"
+                      }, 
+                      "Call": {
+                        "required": [
+                          "Parameters", 
+                          "UseCase"
+                        ], 
+                        "type": "object", 
+                        "properties": {
+                          "UseCase": {
+                            "type": "string"
+                          }, 
+                          "Parameters": {
+                            "required": [
+                              "Action", 
+                              "Test"
+                            ], 
+                            "type": "object", 
+                            "properties": {
+                              "Action": {
+                                "required": [
+                                  "Application", 
+                                  "Label"
+                                ], 
+                                "type": "object", 
+                                "properties": {
+                                  "Application": {
+                                    "type": "string"
+                                  }, 
+                                  "Label": {
+                                    "type": "string"
+                                  }
+                                }
+                              }, 
+                              "DataType": {
+                                "required": [
+                                  "Application", 
+                                  "Label"
+                                ], 
+                                "type": "object", 
+                                "properties": {
+                                  "Application": {
+                                    "type": "string"
+                                  }, 
+                                  "Label": {
+                                    "type": "string"
+                                  }
+                                }
+                              }, 
+                              "Data": {
+                                "required": [
+                                  "Owner", 
+                                  "Value"
+                                ], 
+                                "type": "object", 
+                                "properties": {
+                                  "Owner": {
+                                    "type": "string"
+                                  }, 
+                                  "Value": {
+                                    "type": "string"
+                                  }
+                                }
+                              }, 
+                              "Test": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }, 
+                      "NumCrewBags": {
+                        "type": "integer"
+                      }, 
+                      "Sid": {
+                        "type": "string"
+                      }, 
+                      "BoardPoint": {
+                        "type": "string"
+                      }, 
+                      "PaxSurname": {
+                        "type": "string"
+                      }, 
+                      "ImportDuration": {
+                        "type": "integer"
+                      }, 
+                      "ConfigCode": {
+                        "type": "string"
+                      }, 
+                      "ErrorScope": {
+                        "type": "string"
+                      }, 
+                      "OperatingSystem": {
+                        "type": "string"
+                      }, 
+                      "ImportTime": {
+                        "type": "integer"
+                      }, 
+                      "QueryMsgType": {
+                        "type": "string"
+                      }, 
+                      "CrypticEntry": {
+                        "type": "boolean"
+                      }, 
+                      "SwipeSearch": {
+                        "type": "boolean"
+                      }, 
+                      "MaFlightnumOpSuffix": {
+                        "type": "string"
+                      }, 
+                      "PaymentMerchant": {
+                        "type": "string"
+                      }, 
+                      "PartnerDcs": {
+                        "type": "string"
+                      }, 
+                      "RecLoc": {
+                        "type": "string"
+                      }, 
+                      "AcceptanceErd": {
+                        "type": "string"
+                      }, 
+                      "Phase": {
+                        "type": "string"
+                      }, 
+                      "RejectOffice": {
+                        "type": "string"
+                      }, 
+                      "MktFlightFrom": {
+                        "type": "string"
+                      }, 
+                      "notif": {
+                        "type": "string"
+                      }, 
+                      "NodeName": {
+                        "type": "string"
+                      }, 
+                      "TaxCalculationDiffFQCounter": {
+                        "type": "integer"
+                      }, 
+                      "IP": {
+                        "type": "string"
+                      }, 
+                      "PassengerAccepted": {
+                        "type": "integer"
+                      }, 
+                      "LoadSheetError": {
+                        "type": "integer"
+                      }, 
+                      "BEType": {
+                        "type": "string"
+                      }, 
+                      "PaymentIdentifier": {
+                        "type": "string"
+                      }, 
+                      "Routing": {
+                        "type": "string"
+                      }, 
+                      "AS": {
+                        "type": "string"
+                      }, 
+                      "RejectCategory": {
+                        "type": "string"
+                      }, 
+                      "Airline": {
+                        "type": "string"
+                      }, 
+                      "Context": {
+                        "required": [
+                          "API", 
+                          "ObeApp", 
+                          "Phase"
+                        ], 
+                        "type": "object", 
+                        "properties": {
+                          "Phase": {
+                            "type": "string"
+                          }, 
+                          "API": {
+                            "type": "string"
+                          }, 
+                          "ObeApp": {
+                            "type": "string"
+                          }
+                        }
+                      }, 
+                      "TransactionTimeIn": {
+                        "type": "string"
+                      }, 
+                      "TechnicalError": {
+                        "type": "string"
+                      }, 
+                      "BSMDeliveryTDS": {
+                        "type": "integer"
+                      }, 
+                      "ExportDuration": {
+                        "type": "integer"
+                      }, 
+                      "OffPoint": {
+                        "type": "string"
+                      }, 
+                      "TaxCalculationKoFQCounter": {
+                        "type": "integer"
+                      }, 
+                      "ConsecutiveFailureCount": {
+                        "type": "integer"
+                      }, 
+                      "TargetedETS": {
+                        "type": "string"
+                      }, 
+                      "CustPreferences": {
+                        "type": "string"
+                      }, 
+                      "MktFlight": {
+                        "type": "string"
+                      }, 
+                      "CPUDetails": {
+                        "type": "string"
+                      }, 
+                      "FileSize": {
+                        "type": "integer"
+                      }, 
+                      "AirportOffTerminal": {
+                        "type": "string"
+                      }, 
+                      "DCPID": {
+                        "type": "string"
+                      }, 
+                      "PaymentAuthAmount": {
+                        "type": "number"
+                      }, 
+                      "DateOfSearch": {
+                        "type": "string"
+                      }
+                    }
+                  }, 
+                  "IDCSelectionIndicators": {
+                    "items": {
+                      "required": [
+                        "Indicator"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "Indicator": {
+                          "type": "string"
+                        }
+                      }
+                    }, 
+                    "type": "array"
+                  }, 
+                  "ServiceVersion": {
+                    "type": "string"
+                  }, 
+                  "TTYOriginator": {
+                    "type": "string"
+                  }, 
+                  "SSLPortOpen": {
+                    "type": "string"
+                  }, 
+                  "ElapsedTimeACCCheckToPerformAcceptance": {
+                    "type": "string"
+                  }, 
+                  "OrgType": {
+                    "type": "string"
+                  }, 
+                  "DocumentEdition": {
+                    "type": "string"
+                  }
+                }
+              }, 
+              "_index": {
+                "type": "string"
+              }
+            }
+          }, 
+          "type": "array"
+        }, 
+        "total": {
+          "type": "integer"
+        }, 
+        "max_score": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "timed_out": {
+      "type": "boolean"
+    }, 
+    "took": {
+      "type": "integer"
+    }, 
+    "_shards": {
+      "required": [
+        "failed", 
+        "successful", 
+        "total"
+      ], 
+      "type": "object", 
+      "properties": {
+        "successful": {
+          "type": "integer"
+        }, 
+        "failed": {
+          "type": "integer"
+        }, 
+        "total": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
