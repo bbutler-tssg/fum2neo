@@ -25,7 +25,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <avroVersion>1.8.2</avroVersion>
     <commons-langVersion>2.4</commons-langVersion>
     <guavaVersion>23.0</guavaVersion>
-    <jackson-databindVersion>2.9.9</jackson-databindVersion>
+    <jackson-databindVersion>[2.9.9.2,)</jackson-databindVersion>
     <javaVersion>1.8</javaVersion>
     <jcommanderVersion>1.72</jcommanderVersion>
     <jsonschema2pojo-maven-pluginVersion>0.4.37</jsonschema2pojo-maven-pluginVersion>
