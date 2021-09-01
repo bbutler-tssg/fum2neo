@@ -32,7 +32,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <junitVersion>4.12</junitVersion>
     <logbackVersion>1.2.3</logbackVersion>
     <maven-compiler-pluginVersion>3.6.2</maven-compiler-pluginVersion>
-    <neo4jVersion>3.2.1</neo4jVersion>
+    <neo4jVersion>3.5.0</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
     <slf4jVersion>1.7.25</slf4jVersion>
   </properties>
