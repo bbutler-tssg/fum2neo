@@ -24,7 +24,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <avroVersion>1.8.2</avroVersion>
     <commons-langVersion>2.4</commons-langVersion>
-    <guavaVersion>31.1-jre</guavaVersion>
+    <guavaVersion>32.0.0-jre</guavaVersion>
     <jackson-databindVersion>[2.9.9.2,)</jackson-databindVersion>
     <javaVersion>1.8</javaVersion>
     <jcommanderVersion>1.72</jcommanderVersion>
