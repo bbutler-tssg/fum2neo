@@ -30,7 +30,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <jcommanderVersion>1.72</jcommanderVersion>
     <jsonschema2pojo-maven-pluginVersion>0.4.37</jsonschema2pojo-maven-pluginVersion>
     <junitVersion>4.13.2</junitVersion>
-    <logbackVersion>1.2.3</logbackVersion>
+    <logbackVersion>[1.2.13,)</logbackVersion>
     <maven-compiler-pluginVersion>3.6.2</maven-compiler-pluginVersion>
     <neo4jVersion>3.5.31</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
