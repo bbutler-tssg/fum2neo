@@ -22,7 +22,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <avroVersion>1.11.3</avroVersion>
+    <avroVersion>1.11.4</avroVersion>
     <commons-langVersion>2.4</commons-langVersion>
     <guavaVersion>32.0.1-jre</guavaVersion>
     <jackson-databindVersion>[2.9.9.2,)</jackson-databindVersion>
