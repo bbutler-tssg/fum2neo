@@ -22,8 +22,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <avroVersion>1.11.4</avroVersion>
-    <commons-langVersion>2.4</commons-langVersion>
+    <avroVersion>1.11.5</avroVersion>
+    <commons-langVersion>2.6</commons-langVersion>
     <guavaVersion>32.0.1-jre</guavaVersion>
     <jackson-databindVersion>[2.9.9.2,)</jackson-databindVersion>
     <javaVersion>1.8</javaVersion>
@@ -32,7 +32,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <junitVersion>4.13.2</junitVersion>
     <logbackVersion>[1.2.13,)</logbackVersion>
     <maven-compiler-pluginVersion>3.6.2</maven-compiler-pluginVersion>
-    <neo4jVersion>3.5.31</neo4jVersion>
+    <neo4jVersion>5.26.21</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
     <slf4jVersion>1.7.25</slf4jVersion>
   </properties>
